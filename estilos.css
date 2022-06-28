@@ -83,7 +83,7 @@ header a:hover {
     background-image: linear-gradient(
         0deg,
         rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
+        rgba(0,0,0,0.5) 
     )
     ,url(img/theweekndfondo.jpg);
     background-size: cover;
@@ -171,6 +171,25 @@ header a:hover {
     ,url(img/theweeknd-colaboraciones.png);
 
 }
+
+#discos .container {
+    text-align: center;
+    padding: 100px 12px;
+    line-height: 30px;
+}
+
+#exitos .container {
+    text-align: center;
+    padding: 100px 12px;
+    line-height: 30px;
+}
+
+#colaboraciones .container {
+    text-align: center;
+    padding: 100px 12px;
+    line-height: 30px;
+}
+
 
 
 #genero .container {
