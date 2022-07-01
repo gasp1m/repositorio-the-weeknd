@@ -84,14 +84,15 @@ header a:hover {
         0deg,
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5) 
-    )
-    ,url(img/theweekndfondo.jpg);
+    ),url(img/theweekndfondo.jpg);
     background-size: cover;
     background-position: center center;
+    
 }
 
 #hero h1 {
     color: white;
+    padding: 12px;
 }
 
 
