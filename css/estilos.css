@@ -16,7 +16,7 @@ p {font-size: 1.25em;}
 
 body {
     margin: 0;
-} 
+}
 
 button {
     font-size: 1.5em;
@@ -39,9 +39,9 @@ button:hover {
 }
 
 header {
-    background-color: rgb(230, 230, 230);
-}   
-
+  background-color: rgb(255, 255, 255);
+}
+ 
 header .logo {
     margin: 0;
     padding: 25px 30px;
