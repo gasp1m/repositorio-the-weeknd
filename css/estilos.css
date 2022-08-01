@@ -1,272 +1,173 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
-
 * {
-    box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
 html {
-    scroll-behavior: smooth;
-    font-family: 'Roboto', sans-serif !important;
-}
+  scroll-behavior: smooth;
+  font-family: "Roboto", sans-serif; }
 
-h1 {font-size: 3.5em;}
-h2 {font-size: 2.7em;}
-h3 {font-size: 2em;}
-p {font-size: 1.25em;}
+h1 {
+  font-size: 3.7em; }
 
-body {
-    margin: 0;
-}
+h2 {
+  font-size: 2.7em; }
+
+h3 {
+  font-size: 2em; }
+
+p {
+  font-size: 1.25em; }
 
 button {
-    font-size: 1.5em;
-    font-weight: bold;
-    padding: 10px 30px;
-    border-radius: 7px;
-    border: 1px solid rgba(0, 0, 0, 0.5);
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
-    color: white;
-    background-color: rgb(165, 40, 40);
-}
-
-button:hover {
-    background-color: rgb(165, 40, 40);
-}
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 10px 30px;
+  border-radius: 7px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  color: white;
+  background-color: #a52828; }
+  button :hover {
+    background-color: #a52828; }
 
 .container {
-    max-width: 1400px;
-    margin: auto;
-}
+  max-width: 1400px;
+  margin: auto; }
 
 header {
-  background-color: rgb(255, 255, 255);
-}
- 
-header .logo {
-    margin: 0;
-    padding: 25px 30px;
-    font-weight: bold;
-    color: rgb(165, 40, 40);;
-    font-size: 1.6em;
-} 
-
-header .container {
+  background-color: white; }
+  header .container {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
-} 
-
-header nav {
+    flex-direction: column; }
+    header .container .logo {
+      margin: 0;
+      padding: 25px 30px;
+      font-weight: bold;
+      color: #a52828;
+      font-size: 1.6em; }
+  header nav {
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding-bottom: 25px;
-} 
-
-header a {
-    padding: 5px 12px;
-    text-decoration: none;
-    font-weight: bold;
-    color: black;
-} 
-
-header a:hover {
-    color: rgb(165, 40, 40);
-} 
+    padding-bottom: 25px; }
+    header nav a {
+      padding: 5px 12px;
+      text-decoration: none;
+      font-weight: bold;
+      color: black; }
+      header nav a :hover {
+        color: #a52828; }
 
 #hero {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  height: 90vh;
+  color: white;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/theweekndfondo.jpg);
+  background-size: cover;
+  background-position: center center; }
+  #hero h1 {
     color: white;
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5) 
-    ),url(/img/theweekndfondo.jpg);
-    background-size: cover;
-    background-position: center center;
-    
-}
-
-#hero h1 {
-    color: white;
-    padding: 12px;
-}
-
+    padding: 12px; }
 
 #biografia .container {
-    text-align: center;
-    padding: 200px 12px;
-    line-height: 30px;
-}
-
-#biografia .color-acento {
-    color: rgb(165, 40, 40);
-}
+  text-align: center;
+  padding: 200px 12px;
+  line-height: 30px; }
+  #biografia .container .color-acento {
+    color: #a52828; }
 
 #sobre-su-carrera {
-    background-color: rgb(30, 30, 30);
-    color: white;
-    text-align: center;
-}
-
-#sobre-su-carrera .container {
-    padding: 100px 0px;
-}
-
-#sobre-su-carrera h2 {
-    margin-top: 0;
-}
-
-#sobre-su-carrera p {
-    display: none;
-}
-
-#sobre-su-carrera .carta {
+  background-color: #1e1e1e;
+  color: white;
+  text-align: center; }
+  #sobre-su-carrera .container {
+    padding: 100px 0px; }
+  #sobre-su-carrera h2 {
+    margin-top: 0; }
+  #sobre-su-carrera p {
+    display: none; }
+  #sobre-su-carrera .carta {
     background-size: cover;
     background-position: center center;
     padding: 50px;
     margin: 20px;
-    border-radius: 15px;
-}
-
-#sobre-su-carrera .carta a {
-    text-decoration: none;
-    list-style: none;
-    color: white;
-}
-
-#sobre-su-carrera .carta a:hover {
-    color: rgb(165, 40, 40);
-}
+    border-radius: 15px; }
+    #sobre-su-carrera .carta a {
+      text-decoration: none;
+      list-style: none;
+      color: white; }
+      #sobre-su-carrera .carta a :hover {
+        color: #a52828; }
 
 .carta:first-child {
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-    )
-    , url(/img/theweeknd-starboy2.jpg);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/theweekndfondonocopyright.jpg); }
 
-
-}
-
-.carta:nth-child(2) {   
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-    )
-    ,url(/img/theweeknd-afterhours.jpg);
- 
-}
+.carta:nth-child(2) {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/theweeknd-afterhours.jpg); }
 
 .carta:nth-child(3) {
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-    )
-    ,url(/img/theweeknd-colaboraciones.png);
-
-}
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/theweeknd-colaboraciones.png); }
 
 #discos .container {
-    text-align: center;
-    padding: 100px 12px;
-    line-height: 30px;
-}
+  text-align: center;
+  padding: 100px 12px;
+  line-height: 30px; }
 
-#exitos .container {
-    text-align: center;
-    padding: 100px 12px;
-    line-height: 30px;
-}
+#exitos .container, #genero .container .container {
+  text-align: center;
+  padding: 100px 12px;
+  line-height: 30px; }
 
 #colaboraciones .container {
-    text-align: center;
-    padding: 100px 12px;
-    line-height: 30px;
-}
-
-
+  text-align: center;
+  padding: 100px 12px;
+  line-height: 30px; }
 
 #genero .container {
-    text-align: center;
-    padding: 200px 12px;
-    line-height: 30px;
-}
+  padding: 200px 12px; }
 
-
-
-
-
-@media (min-width: 720px){
-
-    header { 
-        position: fixed;
-        width: 100%;
-    }
-
-    header .container{ 
+@media (min-width: 720px) {
+  header {
+    position: fixed;
+    width: 100%; }
+    header .container {
+      flex-direction: row;
+      justify-content: space-between; }
+      header .container nav {
         flex-direction: row;
         justify-content: space-between;
-    }
-
-    header nav{
-        flex-direction: row;
         padding-bottom: 0;
-        padding-right: 30px;
-    }
-
-    #biografia .container {
-        display: flex;
-        justify-content: center;
-    }
-
-    #biografia .texto {
-        width: 50%;
-        max-width: 600px;
-        text-align: initial;
-        padding: 0px 30px;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-    }
-
-    #biografia h2 {
-        margin-top: 0;
-    }
-
-    
-
-    #biografia .img-container {
-        background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-    ),url(/img/theweeknd.jpg);
-    background-size: cover;
-    background-position: center center;
-    height: 400px;
-    width: 320px;
-}
-
-#sobre-su-carrera .cartas {
+        padding-right: 30px; }
+  #biografia .container {
     display: flex;
-    justify-content: center;
-}
-
-#sobre-su-carrera h3 {
-    margin-top: 0;
-}
-
-#sobre-su-carrera p {
-    display: block;
-    margin-bottom: 30px;
-    line-height: 32px;
-}
+    justify-content: center; }
+    #biografia .container .img-container {
+      background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/theweeknd.jpg);
+      background-size: cover;
+      background-position: center center;
+      height: 400px;
+      width: 320px; }
+    #biografia .container .texto {
+      display: flex;
+      justify-content: center;
+      width: 50%;
+      max-width: 600px;
+      text-align: initial;
+      padding: 0px 30px;
+      flex-direction: column; }
+      #biografia .container .texto h2 {
+        margin-top: 0; }
+  #sobre-su-carrera .cartas {
+    display: flex;
+    justify-content: center; }
+    #sobre-su-carrera .cartas h3 {
+      margin-top: 0; }
+    #sobre-su-carrera .cartas p {
+      display: block;
+      margin-bottom: 30px;
+      line-height: 32px; } }
