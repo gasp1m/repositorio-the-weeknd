@@ -12,40 +12,35 @@
     <title>The Weeknd Wikinfo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="css/estilos.css">
+    <script src="https://kit.fontawesome.com/b6069b5fd2.js" crossorigin="anonymous"></script>
 </head>
 
-<body id="body"></body>
+<body>
+   
     <header>
-        <div class="container">
-            <p class="logo">The Weeknd</p>
-            <nav>
-                <a href="#biografia">Biografía</a>
-                <a href="#sobre-s#biografiu-carrera">Sobre su carrera</a>
-                <a href="#genero">Género musical</a>
-                <a href="./vistas/contacto.html">Contacto</a>
-            </nav>
-        </div>
-    </header>
-
-    <section id="hero">
-        <h1>Todo lo que necesitas saber sobre <br> The Weeknd</h1>
-        <a href="#biografia"><button>Quién es?</button></a>
-    </section>
-
-    <section id="biografia">
-        <div class="container">
-            <div class="img-container"></div>
-            <br>
-            <br>
-            <div class="texto">
-                <h2>Sobre <span class="color-acento">The Weeknd</span></h2>
-                <p>Abel Makkonen Tesfaye, mayormante conocido como The Weeknd, nació en 1990 en la provincia de Ontario, Canadá.
-                Abel tuvo una infancia complicada, además de consumo de drogas, y el abandono de su padre. 
-                Su alias viene de sus antecedentes: robos, consumo de gitmarihuana y Ketamina. Su nombre artístico está justamente caracterizado por su excusa de dejar de estudiar "un fin de semana" para hacer todas esas cosas. 
-                Aquí surge una de las estrellas de Pop más conocidas del mundo, y que no tiene intención de parar.</p>
+        <nav>
+            <div>
+                <p class="logo">The Weeknd</p>
+            </div>
+            <input type="checkbox" id="check">
+            <label for="check" class="bar-btn">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+            <ul class="nav-menu">
+                <li><a href="./vistas/biografia.html">Biografía</a></li>
+                <li><a href="#sobre-su-carrera">Sobre su carrera</a></li>
+                <li><a href="./vistas/genero.html">Género musical</a></li>
+                <li><a href="./vistas/contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="banner-text">
+            <h2>TODO SOBRE</h2>
+            <h1>THE WEEKND</h1>
+            <div>
+                <a href="./vistas/biografia.html" class="button1">¿Quién es?</a>
             </div>
         </div>
-    </section>
+    </header>
 
     <section id="sobre-su-carrera">
         
@@ -53,16 +48,16 @@
             <h2>Su carrera como artista</h2>
             <div class="cartas">
                 <div class="carta">
-                    <a href="#discos"><h3>Discos</h3></a>
+                    <a href="./vistas/sobresucarrera.html#discos"><h3>Discos</h3></a>
                     <p>Entre los más escuchados se encuentran: Starboy, After Hours y Beauty Behind The Madness. 
                     Tras la publicación de estos discos, Abel se ha convertido en una figura del R&B.</p>
                 </div>
                 <div class="carta">
-                    <a href="#exitos"><h3>Éxitos</h3></a>
+                    <a href="./vistas/sobresucarrera.html#exitos"><h3>Éxitos</h3></a>
                     <p>The Weeknd tiene innumerables éxitos, pero entre los más populares está: Blinding Lights, I Feel It Coming, Starboy, The Hills, Out Of Time, In Your Eyes y Save Your Tears.</p>
                 </div>
                 <div class="carta">
-                    <a href="#exitos"><h3>Colaboraciones</h3></a>
+                    <a href="./vistas/sobresucarrera.html#colaboraciones"><h3>Colaboraciones</h3></a>
                     <p>Este artista ha colaborado con diferentes artistas y cantantes famosos. Entre ellos se encuentra: Ariana Grande, Daft Punk, Doja Cat, Maluma, Drake, Future, Kanye West, etc.</p>
                 </div>
             </div>
@@ -71,70 +66,6 @@
     </section>
 
 
-    <section id="discos">
-    
-        <div class="container">
-            <h2 class="text-center p-5">Discografía</h2>
-            <div class="row">
-                <div class="col-lg-4 col-md-6 p-3">
-                    <img class="p-3" src="img/theweeknd-lastflighttokissland.PNG" width ="300">
-                    <p><span class="fw-bold">Kiss Land</span>, lanzado en 2013, es el primer álbum oficial de Abel. En el álbum, que cuenta con seis sencillos, se destaca una colaboración reciente de The Weeknd, Drake.</p> 
-                </div>
-                <div class="col-lg-4 col-md-6 p-3">
-                    <img class="p-3" src="img/theweeknd-beautybehindthemadness.jpg" width="300">
-                    <p class="p-2"><span class="fw-bold">Beauty Behind The Madness</span> presenta apariciones de Labrinth, Ed Sheeran, Lana Del Rey. El mismo contiene tres éxitos de Abel: "The Hills", "Cant Feel My Face" y "Earned It". Fue lanzado el 28 de agosto de 2015 y es el más escuchado junto a After Hours.</p>
-                </div>
-                <div class="col-lg-4 col-md-6 p-4">
-                    <img src="img/theweeknd-starboy.jpg" width="270">
-                    <p class="p-4">Lanzado un año después de Beauty Behind The Madness, <span class="fw-bold">Starboy</span> ganó un Premio Grammy al Mejor Álbum Urbano Contemporáneo, y debutó en el número uno de la Billboard 200 con 348.000 unidades equivalentes a álbumes, de las cuales 209.000 fueron de ventas puras.</p>
-                </div>
-                <div class="col-lg-4 col-md-6 p-3">
-                    <img src="img/theweeknd-afterhours.jpg" width="290">
-                    <p class="p-4"><span class="fw-bold">After Hours</span> cuenta con la canción más escuchada de The Weeknd, "Blinding Lights". Además, tiene otros éxitos, como "In Your Eyes", "Heartless" y "Save Your Tears". Alcanzó el primer puesto en otros 20 países, incluidos Canadá y el Reino Unido. El álbum fue un éxito comercial y recibió críticas generalmente positivas, y algunos críticos de música lo nombraron su mejor trabajo hasta el momento. </p>
-                </div>
-                <div class="col-lg-4 col-md-6 p-3">
-                    <img src="img/theweeknd-dawnfm.jpg" width="300">
-                    <p class="p-4"><span class="fw-bold">Dawn FM</span> es el quinto y más reciente álbum de The Weeknd. Fue lanzado el 7 de enero de este año por XO, compañía discográfica cuyo fundador es el mismísimo The Weeknd. Se lanzaron dos sencillos del álbum, de los cuales el sencillo principal "Take My Breath" alcanzó el puesto número seis en el Billboard Hot 100 de Estados Unidos. Dawn FM tiene sus raíces en los géneros dance pop y synth pop.</p>
-                </div>
-                <div class="col-lg-4 col-md-12 d-none d-lg-block">
-                    <img src="./img/theweekndaes4.jpg" width="430">
-                </div>
-            </div>
-        </div>
-
-    <section id="exitos">
-        <div class="container">
-            <h2 class="text-center p-5">Éxitos</h2>
-            <div class="row">
-                <div class="col-lg-6 col-md-12">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/34Na4j8AVgA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-                <div class="col-lg-6 col-md-12">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/yzTuBuRdAyA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-                <div class="col-lg-6 col-md-12 pt-4">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/4NRXx6U8ABQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-                <div class="col-lg-6 col-md-12 pt-4">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/dqRZDebPIGs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-
-
-            </div>
-        </div>
-    </section>
-
-    <section id="genero">
-        <div class="container">
-            <h2 class="text-center pb-4">Género musical</h2>
-            <div class="text-center">
-                <p class="">Con su tono de voz ligero, The Weeknd se ha inspirado en artistas como R. Kelly, Prince y Michael Jackson. Admitió decir que la música de Michael y la letra de Dirty Diana fue la que le hizo querer ser cantante. Creció escuchando una variedad de géneros musicales que incluían el soul, quiet storm, hip hop, funk, indie rock, y post-punk. Dentro de sus otras influencias se incluye a David Bowie, The Smiths, Bad Brains, Talking Heads, DeBarge, 50 Cent, Wu-Tang Clan, y Eminem.</p>
-                <p class="">Las canciones de The Weeknd cuentan con tempos lentos, con bajos retumbantes y ecos tristes. Abel canta en un falsete registrado, exhibiendo un tono atractivo. Su música incorpora muestras que son poco convencionales en las producciones de R&B, incluyendo punk y rock alternativo. En conciertos, The Weeknd reapropia sus producciones digitalizadas con una suite similar al de las arenas de rock.</p>
-                <p class="">Algunos periodistas han asociado a The Weeknd como una ampliación de la paleta musical de R&B por incorporar estilos indie y electrónicos; su trabajo se ha categorizado con la etiqueta de <span class="fw-bold">R&B Alternativo</span></p>
-            </div>
-        </div>
-        
-    </section>
 
     
     
