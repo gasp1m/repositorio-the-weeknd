@@ -22,6 +22,7 @@ h3{font-size: map-get($sizes, 'h3')}
 p{font-size: map-get($sizes, 'p')}
 
 header{
+    z-index: -3;
     width: 100%;
     height: 100vh;
     background-image: linear-gradient(
@@ -58,7 +59,7 @@ header{
         }
 
         .nav-menu{
-            position: absolute;
+            position: fixed;
             width: 100%;
             height: 0vh;
             top: 100px;
@@ -67,9 +68,11 @@ header{
             transition: all .5s;
 
             li{
+                z-index: 4;
                 display: none;
                 line-height: 30px;
                 margin: 50px 0;
+                transition: all .5s;
 
                 a{
                     color: map-get($palette, 'secondaryColor');
@@ -373,6 +376,7 @@ header nav li a:hover{
 
 @media screen and (min-width: 768px){
 
+    
     nav{
         height: 100px;
 
@@ -386,18 +390,28 @@ header nav li a:hover{
 
         .nav-menu{
             position: relative;
+            height: 100px;
             top: 0;
             background: none;
             transition: none;
-            float: right;
+            align-content: right;
             margin-right: 50px;
 
             li{
+                z-index: 4;
                 display: inline-block;
                 line-height: 100px;
+                margin: 0 20px;
+
+                a{
+                    font-size: 12px;
+                }
             }
+            
         }
     }
+
+    
 
  
     #biografia .container {
